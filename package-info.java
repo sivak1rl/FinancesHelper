@@ -1,7 +1,0 @@
-/**
- * 
- */
-/**
- * @author RSIVAK
- */
-package money;
