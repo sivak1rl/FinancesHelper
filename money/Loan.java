@@ -4,11 +4,9 @@ public class Loan extends Investment
 {
 	private Integer	term;
 
-	public Loan(Double annualPercentageChange, Double principle, Integer term)
+	public Loan(Double annualPercentageRate, Double principle, Integer term)
 	{
-		super();
-		this.setAnnualPercentageChange(annualPercentageChange);
-		this.setPrinciple(principle);
+		super(annualPercentageRate, principle);
 		this.term = term;
 	}
 
