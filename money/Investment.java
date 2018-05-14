@@ -5,6 +5,9 @@ public abstract class Investment {
 	private Double annualPercentageChange;
 	private Double principle;
 
+	/**
+	 * Sets properties to null!
+	 */
 	protected Investment() {
 		this.annualPercentageChange = null;
 		this.principle = null;

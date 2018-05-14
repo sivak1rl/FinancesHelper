@@ -41,11 +41,11 @@ public class MonthlyPercentageCalc
 		// 17773.51 5.99
 		// 21578.79 5.99 84mo
 		System.out.println("Interest on my current loan... "
-				+ Loan.getInterestPaid(5.99, 315.13, 17773.51));
+				+ Loan.getInterestPaid(5.99, 315.13, 14785.29));
 		System.out.println("Total interest percentage I will be paying: "
-				+ (Loan.getInterestPaid(5.99, 315.13, 17773.51)/21578.79 ));
+				+ (Loan.getInterestPaid(5.99, 315.13, 14785.29)/21578.79 ));
 		System.out.println("Months paying on my current loan... "
-				+ Loan.getMonthsPaying(5.99, 315.13, 17773.51));
+				+ Loan.getMonthsPaying(5.99, 315.13, 14785.29));
 
 		System.out.println("Interest on my original loan... "
 				+ Loan.getInterestPaid(5.99, 315.13, 21578.79));
